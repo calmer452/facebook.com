@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1024px) {
+  /* Tablet landscape */
+  .login-container {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet portrait */
+  .login-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo-container {
+    padding: 10px;
+  }
+  .login-form-container {
+    padding: 20px;
+  }
+  .login-form-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .login-form-container button {
+    padding: 10px;
+  }
+  .create-account-button {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Mobile landscape */
+  .login-container {
+    padding: 10px;
+  }
+  .logo-container {
+    padding: 5px;
+  }
+  .login-form-container {
+    padding: 10px;
+  }
+  .login-form-container input {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  .login-form-container button {
+    padding: 5px;
+  }
+  .create-account-button {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* Mobile portrait */
+  .login-container {
+    padding: 5px;
+  }
+  .logo-container {
+    padding: 2px;
+  }
+  .login-form-container {
+    padding: 5px;
+  }
+  .login-form-container input {
+    padding: 2px;
+    margin-bottom: 2px;
+  }
+  .login-form-container button {
+    padding: 2px;
+  }
+  .create-account-button {
+    margin-top: 5px;
+  }
+}
